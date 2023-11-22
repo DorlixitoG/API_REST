@@ -1,0 +1,28 @@
+###
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Nailon Tesla",
+    "age":30,
+    "email":"nikolatesla@email.com"
+}
+
+###
+GET http://localhost:3000/api/users HTTP/1.1
+
+###
+GET http://localhost:3000/api/users/655e3db8c37dd388b2e15a2d HTTP/1.1
+
+###
+DELETE http://localhost:3000/api/users/655e3db8c37dd388b2e15a2d HTTP/1.1
+
+####
+PUT  http://localhost:3000/api/users/655e40bcae26b801e2db769d HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Cristiano",
+    "age":39,
+    "email":"Cri2sRonCr7@email.com"
+}
